@@ -6,25 +6,47 @@ The project intends to manage the code in the architecture design by attaching s
 
 ## Project Organization
 - openstack architecture analysis
-  - Paste+PasteDeploy
+  - Paste+PasteDeploy(PPD)
+  - Paste+PasteDeploy+Routes+WebOb(PPRW)
 ## Code Tree
 ```
 ─arch-design
-    │  README.md
+│  .gitignore
+│  README.md
+│
+└─openstack
+    ├─ppd
+    │  │  .gitignore
+    │  │  boiler.py
+    │  │  drinking.py
+    │  │  hydrant.py
+    │  │  main.py
+    │  │  paste.ini
+    │  │  purifier.py
+    │  │  README.md
+    │  │  shower.py
+    │  │  tap.py
+    │  │
+    │  ├─assets
+    │  │      Schematic.png
+    │  │
+    │  └─__pycache__
+    │          boiler.cpython-38.pyc
+    │          drinking.cpython-38.pyc
+    │          hydrant.cpython-38.pyc
+    │          purifier.cpython-38.pyc
+    │          shower.cpython-38.pyc
+    │          tap.cpython-38.pyc
     │
-    └─openstack
-        └─ppd
-            │  .gitignore
-            │  boiler.py
-            │  drinking.py
-            │  hydrant.py
-            │  main.py
-            │  paste.ini
-            │  purifier.py
-            │  README.md
-            │  shower.py
-            │  tap.py
-            │
-            ├─assets
-            │      Schematic.png
+    └─pprw
+        │  .gitignore
+        │  main.py
+        │  paste.ini
+        │  README.md
+        │  resource_warpper.py
+        │  server.py
+        │
+        └─assets
+                nova-api-start.png
+                routes.drawio.png
 ```
