@@ -4,7 +4,7 @@
 ### Goals
 The goal of the project is to enhance the understanding and application of the nova-api module through practice.
 
-### Timing Chart
+### Sequence Diagram
 ![nova-api start](./assets/nova-api-start.png)
 
 ![routes process](./assets/routes.drawio.png)
