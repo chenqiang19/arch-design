@@ -49,7 +49,7 @@ The project intends to manage the code in the architecture design by attaching s
     │    └─assets
     │            nova-api-start.png
     │            routes.drawio.png
-	│
+    │
     └─RBAC
         │  base.py
         │  main.py
